@@ -25,7 +25,7 @@ This pipeline is now cloud-enabled!
 ```python
 # sample output
 ✅ Uploaded data/processed/aqi_multiple_cities_20250621_1532.csv to s3://aqi-data-aniket/aqi_multiple_cities_20250621_1532.csv
-
+```
 ---
 
 ## ⚙️ Tech Stack
