@@ -14,6 +14,20 @@ This project is a complete end-to-end **Data Engineering pipeline** that fetches
 
 ---
 
+## ☁️ Cloud Integration (AWS S3)
+
+This pipeline is now cloud-enabled!
+
+- ✅ Automatically uploads the cleaned CSV to an AWS S3 bucket
+- ✅ Uses `boto3` to push the latest `aqi_multiple_cities_*.csv` to the cloud
+- ✅ Prepares the dataset for future integration with PySpark, Glue, Athena, or Redshift
+
+```python
+# sample output
+✅ Uploaded data/processed/aqi_multiple_cities_20250621_1532.csv to s3://aqi-data-aniket/aqi_multiple_cities_20250621_1532.csv
+
+---
+
 ## ⚙️ Tech Stack
 
 | Tool       | Use                         |
